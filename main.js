@@ -187,7 +187,7 @@ function usebutton(e){
     }}catch(err){}
     setTimeout(() =>{                
         c.clearRect( 1, 1, canv.width - 2, canv.height - 2);
-        for(i in circle){delete circle[i]};
+        for(i in lines){delete lines[i]};
         coun = 2;
         counCirc = 2;
         firstPos.x = 0;
